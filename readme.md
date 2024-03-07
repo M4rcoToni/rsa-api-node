@@ -1,3 +1,6 @@
+![draw](./draw.png)
+
+
 # Documentação do Código - Bob API e Alice API
 
 Este repositório contém código para duas APIs, "bob-api" e "alice-api", que ilustram um cenário de comunicação segura usando criptografia RSA de chave pública/privada. Neste cenário, Bob (bob-api) deseja enviar uma mensagem segura para Alice (alice-api) de forma que apenas Alice possa descriptografá-la.
