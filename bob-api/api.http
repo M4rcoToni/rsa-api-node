@@ -1,0 +1,14 @@
+### bob send
+POST  http://localhost:3334/message
+
+###
+GET http://localhost:3333/alice-pkey
+
+###
+POST http://localhost:3333/alice-message
+Content-Type: application/json
+
+{
+  "message": "eZXm8v5awQjrDBDLugqjZDUKG29no0U1WGOHvcanL41elc66fwq0F3r4Uf+EzJaf9ecD+PXXamkCqqaJITSPG5XkKnokHuCQt9edBe/n+WNhJKCcqNxv8ibnPWVDCU7SNgU1MSteMRRznhc+zFbzqZkxF0Oa2ZFFGR2Czk+EPe4w5cvNRx6VwYYoYIrikEE8khJYqyGPATVsmAO/Joa/XbxdQ8nmbZLAMu0SRPMlDZUR4VfzVtECGY3zGFUekKIXAyJ2oTpX2IRbAzQn11wEeQnaFwHL3w2Wj2lArzy+K3+3zFQnyYO618CEnqXp+8Uap890QLfMSgNdVJ7jUuuURw=="
+}
+###
